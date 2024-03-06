@@ -1,0 +1,29 @@
+<!-- recuperar_senha.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/recupera.css">
+</head>
+<body>
+    <main>
+        <section id="recuperarSenha">
+            <h1>Recuperar Senha</h1>
+            <p>Informe seu e-mail para receber instruções de recuperação de senha.</p>
+            <form method="post" action="recuperar_senha.php" autocomplete="on">
+                <div class="campo">
+                    <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required maxlength="300">
+                    <label for="iemail">E-mail
+                        <i class="material-icons">mail</i>
+                    </label>
+                </div>
+                <input type="submit" value="Enviar Instruções">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
